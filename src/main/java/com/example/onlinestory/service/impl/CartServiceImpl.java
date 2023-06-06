@@ -7,8 +7,8 @@ import com.example.onlinestory.service.CartService;
 import java.util.Optional;
 
 public class CartServiceImpl implements CartService {
-    private final CartRepository cartRepository;
 
+   private CartRepository cartRepository;
     @Override
     public Optional<Cart> findCartByUserId(int id) {
         return cartRepository.findCartByUserId(id);

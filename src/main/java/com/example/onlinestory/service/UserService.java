@@ -4,4 +4,5 @@ import com.example.onlinestory.entity.User;
 
 public interface UserService {
     void findByUser(User user);
+
 }
